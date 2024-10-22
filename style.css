@@ -1,0 +1,25 @@
+@charset "UTF-8" ;
+
+
+
+
+:root{
+    --cor-fundo-header: #002F52;
+    --cor-listras: #326589;
+    --cor-de-fundo:#ebecee ;
+
+
+    --fonte-popins: 'Poppins, sans-serif' ;
+
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+
+h1{
+    font-family: var(--fonte-popins);
+}
+
+

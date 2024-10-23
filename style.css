@@ -1,7 +1,10 @@
 @charset "UTF-8" ;
 
 
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 :root{
     --cor-fundo-header: #002F52;
@@ -9,7 +12,7 @@
     --cor-de-fundo:#ebecee ;
 
 
-    --fonte-popins: 'Poppins, sans-serif' ;
+   
 
 }
 
@@ -19,7 +22,8 @@ body{
 
 
 h1{
-    font-family: var(--fonte-popins);
+   background-color:  white;
 }
 
+@media(max-width: 380px); 
 

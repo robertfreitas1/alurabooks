@@ -54,6 +54,7 @@
 
 .categoria-header{
     color: #EB9B00;
+    font-weight: 700;
     
 }
 
@@ -68,7 +69,10 @@
     background-clip: text;
     text-transform: uppercase;
 
+   
 }
 
 
-    
+.container__botao{
+    display: none;
+}

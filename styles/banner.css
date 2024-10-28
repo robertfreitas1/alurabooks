@@ -1,0 +1,38 @@
+
+.abaixo__header{
+    
+   text-align: center;
+    background-color:#002f52 ;
+    color: var(--branco);
+   font-family: "poppins";
+    padding: 2.5em 2em;
+ 
+   
+}
+
+.banner__titulo{
+    font-size: 18px;
+    font-weight:700 ;
+  
+}
+
+.texto__banner{
+    font-weight: 500;
+    margin: 1.3em 0 ;
+  
+}
+.banner__pesquisa{
+   
+    color: var(--branco);
+    margin: 1em 0;
+    text-align: center;
+    width: 340px;
+    height: 44px;
+    border-radius: 24px ;
+    border-color: var(--branco);
+    
+   
+  
+    
+}
+

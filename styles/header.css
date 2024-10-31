@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    
 }
 
 .cabecalho{
@@ -16,12 +17,15 @@
 }
 
 .conteiner{
-    display: flex;
-    align-items: center;
+   display: flex;
+align-items: center;
+
+    
    
 }
 .conteiner__imagem{
-    padding: 1em;
+padding: 1em;
+
     
 
 }
@@ -31,24 +35,24 @@
     position: absolute;
     top: 100%;
     margin: 5px 0px 0px 5px;
-    width: 50vw;
+    width: 60vw;
     
 }
 
-.container__botao:checked ~ .lista-menu{
+.container__botao:checked~.lista-menu{
     display: block;
     
 }
 
 .lista-menu__links{
     text-decoration: none;
+    
 }
 
 .lista-menu__titulo, .lista-menu__item {
    padding: 1em;
    background-color: var(--branco);
-   color: #326589;
-   border-radius: 4px;
+  
    
 }
 
@@ -76,3 +80,4 @@
 .container__botao{
     display: none;
 }
+

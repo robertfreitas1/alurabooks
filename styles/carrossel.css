@@ -88,3 +88,79 @@ padding:1em ;
     align-content: center;
 }
 
+
+.conteiner__autora-juliana{
+   
+background: var(--branco);
+box-shadow: 0px 0px 4px rgba (0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 1em;
+padding:1em ;
+}
+.estrelinhas-autora{
+    display: flex;
+
+    justify-content: space-between;
+  margin: 1em 0em 0em 1em;
+
+
+}
+.titulo-autora{
+    color: var(--laranja);
+    font-family: 'poppins';
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sub-titulo{
+     padding: 10px;
+     color: #002f52;
+     font-family: 'poppins';
+     font-weight: bold;
+     width: 159px;
+     height: 27px
+
+}
+
+.texto-autora{
+  
+    margin: 1em 0em 0em 1em;
+    color: black;
+    font-family: 'poppins';
+    line-height: 1.5em;
+    width: 152px;
+
+}
+
+
+
+.conteudo-imagem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icones2-{
+    display: flex;
+   align-items: center;
+   margin: 1.5em 0em 0em 0em;
+   justify-content: space-between;
+
+  
+   
+}
+
+.Saiba-mais-autora{
+    font-family: 'poppins';
+    line-height: auto;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #eb9b00;
+    color: var(--branco);
+    font-size: small;
+    width: 161px;
+    height: 48px;
+   text-align: center;
+    align-content: center;
+    
+ 
+}

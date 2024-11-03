@@ -1,5 +1,5 @@
 
-
+/*Começo novos lançamentos  */
 .carrossel__tiutlo{
 color: var(--laranja);
 background-color: var(--branco);
@@ -88,6 +88,44 @@ padding:1em ;
     align-content: center;
 }
 
+/*Fim novos lançamentos */
+
+
+
+
+/*começo mais vendidos */
+
+
+
+.carrossel__titulo{
+    color: var(--laranja);
+background-color: var(--branco);
+text-align: center;
+text-transform: uppercase;
+font-family: "poppins";
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+padding: 1.0em 0 0.5em 0;
+
+}
+ 
+
+
+
+/*Fim mais vendidos*/
+
+
+
+
+
+
+
+
+
+
+
+/*Começo autora desataque */
 
 .conteiner__autora-juliana{
    
@@ -164,3 +202,8 @@ padding:1em ;
     
  
 }
+
+/*Fim autora destaque */
+
+
+

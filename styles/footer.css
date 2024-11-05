@@ -1,0 +1,10 @@
+.paragrafo__footer{
+    background-color: var(--branco);
+    border-top: 1px #002f52 solid;
+    padding: 2em;
+    color: #002f52;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'poppins' sans-serif;
+  
+}

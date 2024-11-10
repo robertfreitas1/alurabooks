@@ -1,5 +1,11 @@
-.paragrafo__footer{
+
+.conteiner-footer{
     background-color: var(--branco);
+    border-top: 1px #002f52 solid;
+ 
+}
+.paragrafo__footer{
+    
     border-top: 1px #002f52 solid;
     padding: 2em;
     color: #002f52;
@@ -7,4 +13,30 @@
     font-weight: 600;
     font-family: 'poppins' sans-serif;
   
+}
+
+
+
+@media only screen and (min-width: 1024px){
+    .conteiner-footer{
+       display: flex;
+        height: 400px;
+        justify-content: space-between;
+    }
+
+    .sub-titulo-footer{
+        
+    font-size: 24px;
+    }
+
+    .listas{
+        background-color: var(--branco);
+        color: #002f52;
+        position: relative;
+
+    }
+ 
+
+
+
 }

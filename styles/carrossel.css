@@ -166,7 +166,7 @@ padding:1em ;
     color: black;
     font-family: 'poppins';
     line-height: 1.5em;
-    width: 152px;
+    width: 300px;
 
 }
 
@@ -199,6 +199,7 @@ padding:1em ;
     height: 48px;
    text-align: center;
     align-content: center;
+  
     
  
 }
@@ -207,3 +208,46 @@ padding:1em ;
 
 
 
+ 
+
+
+@media only screen and (min-width: 1024px){
+
+    .carrossel__tiutlo{
+   font-size: 26px;
+    }
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-next,  .swiper-button-prev{
+       display: block;
+       top: 60%;
+    }
+
+    .card{
+        width: 50% ;
+        margin: 2em auto
+      
+    }
+
+    .carrossel__titulo{
+        font-size: 26px;
+    }
+
+    .conteiner__autora-juliana{
+        width: 50%;
+        margin: 2em auto;
+
+        
+    }
+    .icones3-{
+        padding-right: 15em;
+     }
+        
+    
+}

@@ -1,7 +1,10 @@
 
+
+
 .conteiner-footer{
     background-color: var(--branco);
     border-top: 1px #002f52 solid;
+    padding: 2em;    
  
 }
 .paragrafo__footer{
@@ -15,28 +18,38 @@
   
 }
 
-
+.lista__rodape{
+    display: none;
+}
 
 @media only screen and (min-width: 1024px){
-    .conteiner-footer{
-       display: flex;
-        height: 400px;
-        justify-content: space-between;
+
+    .lista__rodape{
+        display: block;
     }
+    
+.conteiner-footer{
+    display: flex;
+    justify-content: space-around;
+}
 
-    .sub-titulo-footer{
-        
-    font-size: 24px;
-    }
 
-    .listas{
-        background-color: var(--branco);
-        color: #002f52;
-        position: relative;
+.lista-rodape__item{
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
 
-    }
- 
+.lista-rodape__link{
+    color: black;
+    text-decoration: none;
+    margin-left: 1em;
+}
 
+.sub-titulo-footer{
+    font-size: 2em;
+    font-weight: 500;
+}
 
 
 }

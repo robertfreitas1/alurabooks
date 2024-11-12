@@ -104,8 +104,9 @@ padding-bottom: 2px;
 }
 
 
-
-
+.conteiner__texto{
+    display: none;
+}
 
 
 /*Começo media query*/
@@ -223,21 +224,37 @@ display: flex;
     padding-left: 6em;
 }
 
+
 .buy{
-padding-right: 2em;
-
-}
-
-
-
-
-
-
-
-
-
+    padding-right: 2em;
+    
+    }
+    
+    .conteiner__texto{
+        display: none;
+    }
 
 
 }
 
 
+/*Fim media 1024px*/
+
+
+
+@media  only screen and (min-width: 1728px) {
+
+  
+    .conteiner__link{
+        text-decoration: none;
+        font-weight: 500;
+        text-transform: uppercase;
+
+    }
+
+.conteiner__texto{
+    display: block;
+  color: #000000;
+  padding-bottom: 1em;
+}
+}

@@ -240,7 +240,9 @@ display: flex;
 
 /*Fim media 1024px*/
 
-
+.conteiner__texto{
+    display: none;
+}
 
 @media  only screen and (min-width: 1728px) {
 

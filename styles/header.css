@@ -23,7 +23,7 @@ align-items: center;
     display: flex;
     justify-content: space-between;
     position: relative;
-
+  
 }
 
 
@@ -166,7 +166,7 @@ display: flex;
   .opcoes__item{
 
   
-  padding: 1em;
+ padding: 1em;
   text-transform: uppercase;
       
       
@@ -240,9 +240,6 @@ display: flex;
 
 /*Fim media 1024px*/
 
-.conteiner__texto{
-    display: none;
-}
 
 @media  only screen and (min-width: 1728px) {
 
@@ -253,21 +250,12 @@ display: flex;
         text-transform: uppercase;
 
     }
-
+ 
 .conteiner__texto{
-    display: block;
+   
   color: #000000;
   padding-bottom: 1em;
 }
-
-
-
-.Conteiner__titulo--negrito{
-    margin-left: 1em;
-    
-   
-}
-
 
 
 
